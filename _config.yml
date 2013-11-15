@@ -1,0 +1,13 @@
+name: Desmond Morris
+markdown: redcarpet
+pygments: true
+
+disqus:
+    shortname: 'desmondmorris'
+
+bio: Software engineer. Hip-Hop fan. Runner. Hacker of things. I head up engineering at DoSomething.org
+
+links:
+  github: https://github.com/desmondmorris
+  twitter: https://twitter.com/desmondmorris
+  linkedin: https://linkedin.com/in/desmondmorris
