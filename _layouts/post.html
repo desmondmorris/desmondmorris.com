@@ -8,10 +8,11 @@ layout: default
     <time datetime="{{ page.date }}">{{ page.date | date: "%m.%d.%Y" }}</time>
   </header>
 
-  <div class="post">
+  <div class="entry">
     {{ content }}
   </div>
 
-  {% include disqus.html disqus_identifier=page.disqus_identifier %}
-
+  <section id="comments">
+    {% include disqus.html disqus_identifier=page.disqus_identifier %}
+  </section>
 </article>
