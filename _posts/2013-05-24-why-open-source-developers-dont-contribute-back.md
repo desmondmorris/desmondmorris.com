@@ -3,6 +3,7 @@ layout: post
 title:  "Why Open Source Developers Don't Contribute Back"
 date:   2013-05-24 00:07:00
 permalink: /blog/why-open-source-developers-dont-contribute-back
+disqus_identifier: 7
 ---
 
 As I sit in the airport and enjoy my last pint of some ironically named local micro-brew, I start to think about the last 5 days I spent in Portland.  I travelled to Oregon to attend [DrupalCon](http://portland2013.drupal.org).  DrupalCon is a semi-annual gathering of people who use Drupal, an open-source content management system written in PHP. It had been 3 years since the last time I attended, and my experience this time around was far more satisfiying than the former.  I came to the convention more seasoned this year.  I came with dozen or so more client projects under my belt.  I came excited to re-connect with community members I had worked on some of those projects with.  I came to Portland this year not only as a consumer but as a contributor to open-source software.  It feels great.
