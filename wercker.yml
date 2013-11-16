@@ -6,12 +6,6 @@ build:
     - script:
         name: jekyll doctor
         code: bundle exec jekyll doctor
-    - create-file:
-        name: Github CNAME
-        filename: CNAME
-        overwrite: true
-        content: |-
-            desmondmorris.com
     - grunt
 deploy :
   steps :
