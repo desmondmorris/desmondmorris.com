@@ -11,10 +11,25 @@
 
         <link rel="stylesheet" href="/css/syntax.css">
         <link rel="stylesheet" href="/css/main.css">
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/vendor/modernizr.js"><\/script>')</script>
     </head>
     <body>
+
         <div class="site">
-            <div role="main">{{ content }}</div>
+            <header id="sidebar">
+                <div id="card">
+                    <h2><a href="/">Desmond Morris</a></h2>
+                    <p>Software engineer. Hip-Hop fan. Runner. Hacker of things. I head up engineering at DoSomething.org</p>
+                    <ul class="social">
+                        <li><a href="http://twitter.com/desmondmorris" target="_blank">twitter</a></li>
+                        <li><a href="http://github.com/desmondmorris" target="_blank">github</a></li>
+                        <li><a href="http://linkedin.com/in/desmondmorris" target="_blank">linkedin</a></li>
+                    </ul>
+                </div>
+            </header>
+            <div id="main" role="main">{{ content }}</div>
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
