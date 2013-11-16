@@ -11,7 +11,7 @@ build:
         filename: CNAME
         overwrite: true
         content: |-
-            $GH_CNAME
+            desmondmorris.com
     - grunt
 deploy :
   steps :
