@@ -20,4 +20,4 @@ Learn more about Trello & Zapier:
 
 * Trello:  <a href="http://twitter.com/trello" target="_blank">@trello</a> - <a href="http://trello.com" target="_blank">web</a>
 
-* Zapier:  <a href="http://twitter.com/zapier.com" target="_blank">@zapier</a> - <a href="http://zapier.com" target="_blank">web</a>
+* Zapier:  <a href="http://twitter.com/zapier" target="_blank">@zapier</a> - <a href="http://zapier.com" target="_blank">web</a>
