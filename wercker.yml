@@ -7,3 +7,18 @@ build:
         code: bundle exec jekyll doctor
     - npm-install
     - grunt
+deploy :
+  steps :
+    - script:
+        name: Configure git
+        code: |-
+          git config --global user.email "$GIT_EMAIL"
+          git config --global user.name "$GIT_NAME"
+    - script:
+        name: Deploy to github pages
+        code: |-
+          cd _site
+          git init
+          git add .
+          git commit -m "deploy commit from $WERCKER_STARTED_BY"
+          git push -f $GIT_REMOTE master:gh-pages
