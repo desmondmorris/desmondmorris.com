@@ -10,6 +10,7 @@ exclude:
     - Gemfile.lock
     - node_modules
     - wercker.yml
+    - README.md
 
 disqus:
     shortname: 'desmondmorris'
