@@ -28,9 +28,15 @@ h1, h2, h2 a, h2 a:visited {
   font-weight: bold;
 }
 
+.posts {
+  margin: 0 0 40px 0;
+  padding: 0;
+}
+
 .posts li {
   list-style: none;
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
+  padding: 0;
 }
 
 .posts li .read-more {
