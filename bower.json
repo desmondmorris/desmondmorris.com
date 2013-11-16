@@ -1,0 +1,7 @@
+{
+  "name": "desmondmorris.com",
+  "private": "true",
+  "dependencies": {
+    "jquery": "latest"
+  }
+}
