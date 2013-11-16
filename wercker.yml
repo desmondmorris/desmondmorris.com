@@ -1,4 +1,4 @@
-box: wercker/ruby
+box: wercker/nodejs
 build:
   steps:
     - bundle-install
