@@ -2,6 +2,6 @@
   "name": "desmondmorris.com",
   "private": "true",
   "dependencies": {
-    "jquery": "latest"
+    "jquery": "1.10.2"
   }
 }
