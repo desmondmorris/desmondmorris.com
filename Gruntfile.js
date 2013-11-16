@@ -14,7 +14,7 @@ module.exports = function(grunt) {
       }
     },
     bower: {
-      install: {}
+      install: true
     },
     uglify: {
       build: {
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-jekyll');
 
-  grunt.registerTask('default', [ 'bower:install', 'jekyll', 'uglify' ]);
+  grunt.registerTask('default', [ 'jekyll', 'bower:install', 'uglify' ]);
 
 };
 
