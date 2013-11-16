@@ -1,0 +1,12 @@
+{
+  "name": "desmondmorris.com",
+  "private": true,
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-copy": "*",
+    "bower": "*",
+    "grunt-exec": "*"
+  }
+}
