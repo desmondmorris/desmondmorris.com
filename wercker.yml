@@ -5,3 +5,5 @@ build:
     - script:
         name: jekyll doctor
         code: bundle exec jekyll doctor
+    - npm-install
+    - grunt
