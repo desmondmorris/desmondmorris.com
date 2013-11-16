@@ -65,9 +65,8 @@ article.post {
 
 #sidebar {
   left: 0;
-  padding: 0 0 40px 0;
   position: fixed;
-  bottom: 0;
+  top: 100px;
   width: 25%;
 }
 
