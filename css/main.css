@@ -79,6 +79,12 @@ article.post {
 
 #card {
   margin: 0 40px;
+  text-align: center;
+}
+
+#card .avatar {
+  border-radius: 50%;
+  width: 75%;
 }
 
 #card p{
@@ -118,7 +124,6 @@ article.post {
   }
 
   #card p{
-
     margin: 0;
   }
 
