@@ -5,9 +5,12 @@ pygments: true
 disqus:
     shortname: 'desmondmorris'
 
+googleanalytics:
+    id: 'UA-8505162-5'
+
 bio: Software engineer. Hip-Hop fan. Runner. Hacker of things. I head up engineering at DoSomething.org
 
 links:
-  github: https://github.com/desmondmorris
-  twitter: https://twitter.com/desmondmorris
-  linkedin: https://linkedin.com/in/desmondmorris
+    github: https://github.com/desmondmorris
+    twitter: https://twitter.com/desmondmorris
+    linkedin: https://linkedin.com/in/desmondmorris
