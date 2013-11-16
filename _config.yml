@@ -2,6 +2,14 @@ name: Desmond Morris
 markdown: redcarpet
 pygments: true
 
+exclude:
+    - bower.json
+    - Gruntfile.js
+    - package.json
+    - Gemfile
+    - Gemfile.lock
+    - node_modules
+
 disqus:
     shortname: 'desmondmorris'
 
