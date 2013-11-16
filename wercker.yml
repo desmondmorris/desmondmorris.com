@@ -1,24 +1,30 @@
 box: wercker/ubuntu12.04-nodejs0.10
 build:
   steps:
+    - npm-install
     - bundle-install
     - script:
         name: jekyll doctor
         code: bundle exec jekyll doctor
-    - npm-install
+    - create-file:
+        name: Github CNAME
+        filename: CNAME
+        overwrite: true
+        content: |-
+            $GH_CNAME
     - grunt
 deploy :
   steps :
     - script:
         name: Configure git
         code: |-
-          git config --global user.email "$GIT_EMAIL"
-          git config --global user.name "$GIT_NAME"
+            git config --global user.email "$GIT_EMAIL"
+            git config --global user.name "$GIT_NAME"
     - script:
         name: Deploy to github pages
         code: |-
-          cd _site
-          git init
-          git add .
-          git commit -m "deploy commit from $WERCKER_STARTED_BY"
-          git push -f $GIT_REMOTE master:gh-pages
+            cd _site
+            git init
+            git add .
+            git commit -m "deploy commit from $WERCKER_STARTED_BY"
+            git push -f $GIT_REMOTE master:gh-pages
