@@ -7,7 +7,7 @@
         <meta name="description" content="{{ site.description }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="{% asset_path favicon.ico %}" />
 
         <link type="text/css" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.3/normalize.min.css" />
 
@@ -21,7 +21,7 @@
         <div class="site">
             <header id="sidebar">
                 <div id="card">
-                    <a href="/"><img src="{{ site.links.avatar }}" class="avatar" /></a>
+                    <a href="/"><img src="{% asset_path avatar.jpg %}" class="avatar" /></a>
                     <h2><a href="/">Desmond Morris</a></h2>
                     <p>{{ site.description }}</p>
                     <ul class="social">
