@@ -7,7 +7,7 @@ build:
         code: bundle exec jekyll doctor
     - script:
         name: build
-        code: jekyll build
+        code: bundle exec jekyll build
 deploy :
   steps :
     - script:
