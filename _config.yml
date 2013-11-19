@@ -3,12 +3,8 @@ markdown: redcarpet
 pygments: true
 
 exclude:
-    - bower.json
-    - Gruntfile.js
-    - package.json
     - Gemfile
     - Gemfile.lock
-    - node_modules
     - wercker.yml
     - README.md
 
