@@ -1,0 +1,9 @@
+/* TEAM */
+    Developer: Desmond Morris
+    Contact: hi [at] desmondmorris.com
+    Twitter: @desmondmorris
+    Location: Long Island City, NY.
+
+/* SITE */
+    Components: Modernizr, jQuery, Normalize.
+    Software: Jekyll, Sublime Text
