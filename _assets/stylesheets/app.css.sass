@@ -26,16 +26,14 @@ h1, h2, h2 a, h2 a:visited
 .posts
   margin: 0 0 40px 0
   padding: 0
-
-.posts li
-  list-style: none
-  margin: 0 0 40px 0
-  padding: 0
-
-.posts li .read-more
-  font-size: 14px
-  margin: 0
-  padding: 0
+  li
+    list-style: none
+    margin: 0 0 40px 0
+    padding: 0
+    .read-more
+      font-size: 14px
+      margin: 0
+      padding: 0
 
 h1, .post h2
   font-size: 30px
@@ -56,36 +54,31 @@ article.post
   position: fixed
   top: 100px
   width: 25%
-
-#sidebar h2
-  font-size: 20px
-  font-weight: normal
-  margin: 0
+  h2
+    font-size: 20px
+    font-weight: normal
+    margin: 0
 
 #card
   margin: 0 40px
   text-align: center
-
-#card .avatar
-  border-radius: 50%
-  width: 75%
-
-#card p
-  font-size: 14px
-  line-height: 1.6
-  margin: 0
-
-#card h2
-  margin: 10px 0
+  .avatar
+    border-radius: 50%
+    width: 75%
+  p
+    font-size: 14px
+    line-height: 1.6
+    margin: 0
+  h2
+    margin: 10px 0
 
 .social
   font-size: 13px
   padding: 0
-
-.social li
-  display: inline
-  margin: 0
-  padding: 0 6px 0 0
+  li
+    display: inline
+    margin: 0
+    padding: 0 6px 0 0
 
 @media only screen and (max-width: 800px)
   #sidebar
@@ -97,9 +90,8 @@ article.post
     margin: 0 auto
     text-align: center
     width: 340px
-
-  #card p
-    margin: 0
+    p
+      margin: 0
 
   #main
     border-top: 1px solid #efefef
