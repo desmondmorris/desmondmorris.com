@@ -1,12 +1,13 @@
 box: wercker/ubuntu12.04-nodejs0.10
 build:
   steps:
-    - npm-install
     - bundle-install
     - script:
         name: jekyll doctor
         code: bundle exec jekyll doctor
-    - grunt
+    - script:
+        name: build
+        code: jekyll build
 deploy :
   steps :
     - script:
