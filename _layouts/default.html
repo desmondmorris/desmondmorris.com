@@ -6,6 +6,13 @@
         <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
         <meta name="description" content="{{ site.description }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:site_name" content="{{ site.name }}">
+        <meta property="og:url" content="http://www.desmondmorris.com">
+        <meta property="og:image" content="{{ site.links.avatar }}">
+        <meta property="og:title" content="{{ site.name }}">
+        <meta property="og:description" content="{{ site.description }}">
+        <meta property="og:type" content="website">
+
         <link rel="author" href="humans.txt" />
         <link rel="shortcut icon" href="{% asset_path favicon.ico %}" />
 
@@ -21,7 +28,7 @@
         <div class="site">
             <header id="sidebar">
                 <div id="card">
-                    <a href="/"><img src="{% asset_path avatar.jpg %}" class="avatar" /></a>
+                    <a href="/"><img src="{% asset_path avatar.jpg %}" class="avatar" alt="Desmond Morris" /></a>
                     <h2><a href="/">Desmond Morris</a></h2>
                     <p>{{ site.description }}</p>
 
