@@ -1,6 +1,5 @@
 name: Desmond Morris
 markdown: redcarpet
-pygments: true
 
 exclude:
     - Gemfile
