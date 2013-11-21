@@ -5,7 +5,7 @@ exclude:
     - Gemfile
     - Gemfile.lock
     - sass
-    - javascripts
+    - js
     - wercker.yml
     - README.md
 
