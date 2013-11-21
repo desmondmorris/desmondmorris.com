@@ -4,6 +4,8 @@ markdown: redcarpet
 exclude:
     - Gemfile
     - Gemfile.lock
+    - sass
+    - javascripts
     - wercker.yml
     - README.md
 
