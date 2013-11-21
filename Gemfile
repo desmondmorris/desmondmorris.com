@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem 'jekyll-assets'
+gem 'jekyll-asset-pipeline'
 gem 'coffee-script'
-gem 'uglifier'
 gem "sass"
+gem "yui-compressor"

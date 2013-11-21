@@ -14,11 +14,12 @@
         <meta property="og:type" content="website">
 
         <link rel="author" href="humans.txt" />
-        <link rel="shortcut icon" href="{% asset_path favicon.ico %}" />
 
         <link type="text/css" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/{{ site.vendor.normalize }}/normalize.min.css" />
 
-        {% stylesheet app %}
+        {% css_asset_tag app %}
+        - /_assets/app.sass
+        {% endcss_asset_tag %}
 
         <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/{{ site.vendor.modernizr }}/modernizr.min.js"></script>
 
@@ -28,7 +29,7 @@
         <div class="site">
             <header id="sidebar">
                 <div id="card">
-                    <a href="/"><img src="{% asset_path avatar.jpg %}" class="avatar" alt="Desmond Morris" /></a>
+                    <a href="/"><img src="/images/avatar.jpg" class="avatar" alt="Desmond Morris" /></a>
                     <h2><a href="/">Desmond Morris</a></h2>
                     <p>{{ site.description }}</p>
 
@@ -43,6 +44,10 @@
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/{{ site.vendor.jquery }}/jquery.min.js"></script>
+
+        {% javascript_asset_tag app %}
+        - /_assets/app.coffee
+        {% endjavascript_asset_tag %}
 
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
