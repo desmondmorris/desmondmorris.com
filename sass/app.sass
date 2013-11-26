@@ -107,14 +107,17 @@ nav ul
   #sidebar
     padding: 20px 0
     position: relative
+    top: 0
     width: auto
-
-  #card
-    margin: 0 auto
-    text-align: center
-    width: 340px
-    p
-      margin: 0
+    #card
+      margin: 0 auto
+      text-align: center
+      width: 340px
+      p
+        margin: 0
+      .avatar
+        border-radius: 50%
+        width: 50%
 
   #main
     border-top: 1px solid #efefef
@@ -128,6 +131,15 @@ nav ul
     width: 100%
 
 @media only screen and (max-width: 600px)
+  #sidebar
+    #card
+      width: auto
+      p
+        padding: 0 20px
+      .avatar
+        width: 25%
+    .social
+      display: none
   #main
     font-size: 16px
     padding: 20px
