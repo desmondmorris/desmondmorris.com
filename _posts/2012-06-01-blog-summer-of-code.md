@@ -4,6 +4,7 @@ title:  "My Summer of Code"
 date:   2012-06-01 15:00:00
 permalink: /blog/summer-of-code
 disqus_identifier: 1
+tags: [ruby, node.js, javascript]
 ---
 
 PHP was the first server-side web development language that I learned, and for the better part of the last decade I’ve worked almost exclusively in it. I started out writing these overly complex, custom-scripted websites, moved on to building within frameworks (CakePHP was my weapon of choice), and eventually jumped into Drupal. Here’s what’s bothering me - through each of these transitions, I find myself writing less and less code.

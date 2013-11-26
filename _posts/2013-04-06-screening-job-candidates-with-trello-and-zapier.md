@@ -4,6 +4,7 @@ title:  "Screening Job Candidates With Trello + Zapier"
 date:   2013-04-06 12:44:50
 permalink: /blog/screening-job-candidates-with-trello-and-zapier
 disqus_identifier: 2
+tags: [trello, zapier, hiring]
 ---
 
 At <a href="http://www.dosomething.org" target="_blank">DoSomething.org</a>, we hire a lot of interns.  Hiring a lot of interns means we have a lot of applicants.  Each applicant needs to be reviewed and screened by multiple people.  The intern application process is straight forward.  We ask that people send cover letters and resumes to a position specific email address.  We often ask them to also include other pertinent information to that same email.  Things like GitHub username and project links are common asks for our engineering positions.  Then these "applications" pile up in an inbox that a few interested parties have access to.  We then have a few stages that we like to progress applicants through before we make any decisions.  The stages include a phone call, code screening and a face to face interview.  Tracking this process with email alone is very difficult, especially when there are multiple "reviewers" involved.  This is where Trello comes to the rescue.
