@@ -16,15 +16,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus alique
 ### Availability
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus aliquet varius.
 
-* 01/06/14 - 01/10/14
-* 01/06/14 - 01/10/14
-* 01/06/14 - 01/10/14
-* 01/06/14 - 01/10/14
-* 01/06/14 - 01/10/14
-* 01/06/14 - 01/10/14
-* 01/06/14 - 01/10/14
-* 01/06/14 - 01/10/14
-* 01/06/14 - 01/10/14
-
 ### Legal
 [Why I will not sign your NDA](http://mixergy.com/why-i-wont-sign-your-nda/).
