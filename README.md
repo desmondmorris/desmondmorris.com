@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/desmondmorris/desmondmorris.com.png?label=ready)](https://waffle.io/desmondmorris/desmondmorris.com)  
 # Desmond Morris
 ## [http://desmondmorris.com](http://desmondmorris.com)
 
