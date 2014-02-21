@@ -3,6 +3,12 @@ build:
   steps:
     - bundle-install
     - script:
+        name: install bower
+        code: sudo npm install bower -g
+    - script:
+        name: install bower components
+        code: bower install
+    - script:
         name: jekyll doctor
         code: bundle exec jekyll doctor
     - script:
