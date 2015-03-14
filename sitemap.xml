@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>/</loc>
+    <lastmod>2015-03-14T13:42:51+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+    <url>
+      <loc>/blog/why-open-source-developers-dont-contribute-back</loc>
+      
+        <lastmod>2013-05-24T00:07:00Z</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
+    <url>
+      <loc>/blog/screening-job-candidates-with-trello-and-zapier</loc>
+      
+        <lastmod>2013-04-06T12:44:50Z</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
+    <url>
+      <loc>/blog/summer-of-code</loc>
+      
+        <lastmod>2012-06-01T15:00:00Z</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
+  
+  <url>
+    <loc>/sitemap.xml</loc>
+    
+      <lastmod>2013-11-16</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.7</priority>
+    
+  </url>
+  
+  <url>
+    <loc>/about/index.html</loc>
+    
+      <lastmod>2015-03-14</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>/index.html</loc>
+    
+      <lastmod>2015-03-14</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>/hire/index.html</loc>
+    
+      <lastmod>2015-03-14</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>/blog/index.html</loc>
+    
+      <lastmod>2015-03-14</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>/work/index.html</loc>
+    
+      <lastmod>2015-03-14</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+</urlset>
