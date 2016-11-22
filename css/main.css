@@ -1,0 +1,76 @@
+a, a:hover, a:visited, a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EF233C;
+}
+
+a:active {
+  color: #D90429;
+}
+
+body {
+  background-color: #202231;
+  color: #EDF2F4;
+  font-family: "Roboto Slab";
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 2;
+  padding: 100px 0;
+}
+
+#logo {
+  background-color: #2B2D42;
+  color: #EDF2F4;
+  display: flex;
+  font-family: "Lato";
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+#logo:hover, #logo:active, #logo:visited {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+#pageFooter {
+  font-family: Lato;
+  font-size: 16px;
+  margin-top: 80px;
+}
+
+#pageFooter .social {
+  font-size: 20px;
+}
+
+#pageFooter .social a{
+  color: #EDF2F4;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+#pageFooter .social a:hover {
+  color: #EF233C;
+}
+
+#pageFooter .copyright {
+  color: #2B2D42;
+}
+
+#pageFooter .copyright a{
+  color: #2B2D42;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+ body {
+   text-align: center;
+ }
+}
