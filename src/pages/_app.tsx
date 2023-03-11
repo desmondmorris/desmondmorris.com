@@ -7,12 +7,15 @@ import '@fontsource/roboto-slab/600.css'
 import '@fontsource/open-sans/600.css'
 
 import theme from '../styles/theme'
+import { AnimatePresence } from 'framer-motion'
 
 function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
       <GoogleAnalytics trackPageViews />
-      <Component {...pageProps} />
+      <AnimatePresence mode="wait">
+        <Component {...pageProps} />
+      </AnimatePresence>
     </ChakraProvider>
   )
 }
