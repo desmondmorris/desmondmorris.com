@@ -37,22 +37,22 @@ export default function Home() {
               </Box>
               <Heading size="xl" fontWeight="500">{title}</Heading>
               <Text fontSize={['18px', '18px', '18px', '24px']} lineHeight="2" fontWeight="400">
-                {descriptionLong} <Link href="https://juno.care" target="_blank" color="#337ab7">Juno Medical</Link>.
+                {descriptionLong} <Link href="https://juno.care" target="_blank">Juno Medical</Link>.
               </Text>
             </Stack>
 
             <Stack my="20" spacing="6">
               <Flex gap="6">
 
-                <Link href="https://github.com/desmondmorris" target="_blank">
+                <Link href="https://github.com/desmondmorris" target="_blank" color="white">
                   <AiFillGithub size="24" />
                 </Link>
 
-                <Link href="https://linkedin.com/in/desmondmorris" target="_blank">
+                <Link href="https://linkedin.com/in/desmondmorris" target="_blank" color="white">
                   <AiFillLinkedin size="24" />
                 </Link>
 
-                <Link href="mailto:hi@desmondmorris.com" target="_blank">
+                <Link href="mailto:hi@desmondmorris.com" target="_blank" color="white">
                   <AiFillMail size="24" />
                 </Link>
 
