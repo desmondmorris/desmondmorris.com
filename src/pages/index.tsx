@@ -37,7 +37,7 @@ export default function Home() {
               </Box>
               <Heading size="xl" fontWeight="500">{title}</Heading>
               <Text fontSize={['18px', '18px', '18px', '24px']} lineHeight="2" fontWeight="400">
-                {descriptionLong} <Link href="https://zapier.com" target="_blank">Zapier</Link>.
+                {descriptionLong} <Link href="https://postscript.io" target="_blank">Postscript</Link>.
               </Text>
             </Stack>
 
