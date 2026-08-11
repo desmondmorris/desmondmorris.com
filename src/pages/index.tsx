@@ -15,7 +15,7 @@ export default function Home() {
         <title>{title}</title>
         <meta name="description" content={descriptionShort} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="cf-2fa-verify" content="lbnm6c42koudcecq">
+        <meta name="cf-2fa-verify" content="lbnm6c42koudcecq" />
         <link rel="icon" href="/logo.png" />
       </Head>
       <main>
